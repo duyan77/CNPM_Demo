@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1,
+    "name": "Laptop 16",
+    "image": "https://www.mhcworld.co.za/cdn/shop/files/apple-smart-phones-apple-iphone-16-pro-max-256gb-desert-titanium-pre-order-33107803635801.png?v=1726729338",
+    "price": 20000000,
+    "category": 1
+  },
+  {
+    "id": 2,
+    "name": "Laptop 16",
+    "image": "https://www.mhcworld.co.za/cdn/shop/files/apple-smart-phones-apple-iphone-16-pro-max-256gb-desert-titanium-pre-order-33107803635801.png?v=1726729338",
+    "price": 20000000,
+    "category": 1
+  },
+  {
+    "id": 3,
+    "name": "Laptop 16",
+    "image": "https://www.mhcworld.co.za/cdn/shop/files/apple-smart-phones-apple-iphone-16-pro-max-256gb-desert-titanium-pre-order-33107803635801.png?v=1726729338",
+    "price": 20000000,
+    "category": 1
+  },
+  {
+    "id": 4,
+    "name": "Iphone 16",
+    "image": "https://www.mhcworld.co.za/cdn/shop/files/apple-smart-phones-apple-iphone-16-pro-max-256gb-desert-titanium-pre-order-33107803635801.png?v=1726729338",
+    "price": 20000000,
+    "category": 2
+  },
+  {
+    "id": 5,
+    "name": "Iphone 16",
+    "image": "https://www.mhcworld.co.za/cdn/shop/files/apple-smart-phones-apple-iphone-16-pro-max-256gb-desert-titanium-pre-order-33107803635801.png?v=1726729338",
+    "price": 20000000,
+    "category": 2
+  },
+  {
+    "id": 6,
+    "name": "Iphone 16",
+    "image": "https://www.mhcworld.co.za/cdn/shop/files/apple-smart-phones-apple-iphone-16-pro-max-256gb-desert-titanium-pre-order-33107803635801.png?v=1726729338",
+    "price": 20000000,
+    "category": 2
+  },
+  {
+    "id": 7,
+    "name": "Tablet 16",
+    "image": "https://www.mhcworld.co.za/cdn/shop/files/apple-smart-phones-apple-iphone-16-pro-max-256gb-desert-titanium-pre-order-33107803635801.png?v=1726729338",
+    "price": 20000000,
+    "category": 3
+  }
+]

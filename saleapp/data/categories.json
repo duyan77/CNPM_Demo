@@ -1,14 +1,14 @@
 [
   {
     "id": 1,
-    "name": "laptop"
+    "name": "Laptop"
   },
   {
     "id": 2,
-    "name": "mobile"
+    "name": "Mobile"
   },
   {
     "id": 3,
-    "name": "tablet"
+    "name": "Tablet"
   }
 ]

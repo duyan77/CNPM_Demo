@@ -29,16 +29,40 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
-            <ul class="navbar-nav">
+            <ul class="navbar-nav me-auto">
                 {% for c in categories %}
                 <li class="nav-item">
-                    <a class="nav-link" href="#">{{ c.name }}</a>
+                    <a class="nav-link" href="?category_name={{c.id}}">{{ c.name }}</a>
                 </li>
                 {% endfor %}
             </ul>
+            <form class="d-flex me-2">
+                <input class="form-control me-2" type="text", name="q" placeholder="Search...">
+                <button class="btn btn-primary" type="submit">Search</button>
+            </form>
+
         </div>
     </div>
+
 </nav>
+
+<section class="container">
+    <div class="row">
+        {% for p in products %}
+        <div class="col-md-3 col-12 " style="padding:0.7rem">
+            <div class="card">
+                <img class="card-img-top" src="{{p.image}}" alt="Card image">
+                <div class="card-body">
+                    <h4 class="card-title">{{p.name}}</h4>
+                    <p class="card-text">{{p.price}}</p>
+                    <a href="#" class="btn btn-primary">Xem chi tiet</a>
+                    <a href="#" class="btn btn-danger">Dat hang</a>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</section>
 
 </body>
 </html>
